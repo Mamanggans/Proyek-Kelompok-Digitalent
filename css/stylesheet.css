@@ -2,8 +2,11 @@
 
 * {
   box-sizing: border-box;
+  text-decoration: none;
 }
-
+ul {
+  list-style-type: none;
+}
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
@@ -31,7 +34,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(../img/gedung3lg.jpg);
+  background-image: url(../img/gedungmsf.jpeg);
   background-size: cover;
   color: white;
   text-align: center;
@@ -73,7 +76,7 @@ a {
   background-color: #55acee;
 }
 
-.btn {
+.btns {
   padding: 12px 24px;
   color: white;
   display: inline-block;
@@ -204,12 +207,7 @@ header {
   float: right;
   padding: 10x 60px 40px 60px;
 }
-li{
-  list-style: none;
-  float: left;
-  padding-bottom:10px;
-  padding-left: 40px;
-}
+
 
 /* Ketik code Anda dibawah */
 span.menu-icon {
@@ -403,10 +401,52 @@ span.menu-icon {
     justify-content: space-around;
   }
   
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 20px;
+  align-items: center;
+  grid-gap: 30px;
+  margin-top: 10px;
+}
 
-  footer {
+.grid > article {
+  box-shadow: ;
+  border-radius: 10px;
+  text-align: center;
+  background: purple;
+  width: 250px;
+  border: 3px solid hotpink;
+  margin-top: 10px;
+  background-color: #fff;
+  font-family: verdana;
+}
 
-    font-size: 15px;
+.grid article h2 {
+   font-family: verdana;
+   color :#529c42;
+   margin: 5px;
+   padding: 5px;
+
+}
+.grid article p{
+  border: 1px outset;
+  border-radius: 100px;
+  margin: 20px;
+  padding: 10px;
+  background-color: purple;
+  font-size: 12px;
+  font-family: verdana;
+  color: white;
+}
+
+.grid article p:hover{
+  color: white;
+  background-color: black;
+  border: black;
+}
+
+    font-size: 15px;{
     color: rgb(25, 0, 255);
     background-color: #B5EAEA;
     height: 70px;
@@ -417,4 +457,4 @@ span.menu-icon {
     margin-top: 28px;
     color: black;
     font-weight: normal;
-   }
+   }}

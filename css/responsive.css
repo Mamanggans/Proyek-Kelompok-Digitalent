@@ -3,7 +3,9 @@
     .top-wrapper h1 {
       font-size: 32px;
     }
-  
+    .artikel {
+      display: none;
+    }
     .heading h2 {
       font-size: 20px;
     }
@@ -27,7 +29,7 @@
       display: block;
     }
     
-    .btn {
+    .btns {
       width: 100%;
     }
   
@@ -41,12 +43,14 @@
     
     .top-wrapper h1 {
       font-size: 24px;
-      line-height: 36px;
+      line-height: 36px; 
+      color: black;
     }
     
     .top-wrapper p {
       font-size: 14px;
       line-height: 20px;
+      color: black;
     }
     
     .lesson {
@@ -118,6 +122,8 @@
       .fi-cont p {
     
       }
+      
+
       main {
         padding: 20px;   
         overflow-x: hidden;
